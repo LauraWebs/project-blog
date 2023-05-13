@@ -1,0 +1,72 @@
+@import url('https://fonts.cdnfonts.com/css/sprinkle');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  overflow: hidden;
+  padding: 0px 10px;
+}
+
+.header a {
+  color: #fefdbe;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 25px;    
+  border-radius: 0px 0px 10px 10px;
+  letter-spacing: 1px;
+  margin: 0px 0px 0px 20px;
+
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: #fefdbe;
+}
+
+.header a.active {
+  background-color: #fefdbe;
+  color: #62ada9;
+}
+
+.header-middle {
+  float: middle;
+  color: #fefdbe;
+  padding: 0px 0px 0px 350px;
+  font-family: 'Sprinkle';
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-middle {
+    float: none;
+  }
+}
+
+.btn2{
+
+}
+
+.container{
+  background-image: url(about.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+  margin: auto 0;
+}
